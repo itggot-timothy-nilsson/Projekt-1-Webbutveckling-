@@ -7,13 +7,19 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-column-gap: 16px;
-        grid-template-rows: repeat(4,1fr);
+        grid-template-rows: repeat(8,1fr);
 }
 
 header {
     grid-row: span 1;
     grid-column: span 5;
-    background-color: red;
+    background-color: #426DE8;
 
 }
+.logo {
+    text-align: center;
 }
+
+}
+
+#5DBCD2;
