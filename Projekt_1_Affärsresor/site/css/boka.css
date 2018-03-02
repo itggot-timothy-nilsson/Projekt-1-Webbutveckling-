@@ -1,5 +1,6 @@
 body {
-    background-color: #587EDF 
+    background-color: #587EDF;
+    font-family: sans-serif, Montserrat-Regular;
 }
 
 .container {
@@ -12,9 +13,10 @@ body {
 }
 
 .info {
+    margin-right: 0;
+    margin-left: 0;
     grid-row: 1/5;
     grid-column: span 2;
-    background-color: black;
     display: grid;
     grid-template-rows: repeat(8, 1fr);
     grid-template-columns: repeat(2, 1fr);
@@ -44,7 +46,7 @@ body {
 }
 
 .arrival {
-    grid-row: 4/5;
+    grid-row: 5/6;
     grid-column: span 1;
 }
 
@@ -53,10 +55,119 @@ body {
 }
 
 .home {
-    grid-row: 4/5;
+    grid-row: 5/6;
     grid-column: span 1;
 }
 
 .home input {
     width: 100px;
+}
+
+.date {
+   font-weight: bold;
+    width: 100px;
+    height: 40px;
+    grid-row: 4/5;
+    grid-column: span 1;
+    color: white;
+}
+
+.logo img {
+    display: block;
+    margin-left: 75px;;
+    margin-right: auto;
+    width: 100%;
+    grid-column: 1/2;
+    align-items: center;
+}
+
+.sort {
+    grid-row: 7/8;
+    grid-column: 1;
+    color: white;
+    font-weight: bold;
+
+}
+
+.sort hr {
+    color: black;
+}
+
+.sort p:last-child {
+    border: solid 2px black;
+}
+
+.results {
+    grid-row: 5/8;
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.finnair img {
+    grid-row: 1;
+    grid-column: 1/2;
+    padding-top: 23px;
+}
+
+.result1 {
+    grid-row: 1;
+    grid-column: 2/4;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.price {
+    grid-row: 1;
+    grid-column: 4/7;
+    color: white;
+    font-weight: bold;
+}
+
+.sas {
+    padding-top: 17px;
+    grid-row: 2;
+    grid-column: 1/2;
+    margin-left: 20px;
+}
+
+.destination2 {
+    font-size: 15px;
+    grid-row: 2;
+    grid-column: 2/4;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.price2 {
+    grid-row: 2;
+    grid-column: 4/7;
+    color: white;
+    font-weight: bold;
+}
+
+.estonian {
+    grid-row: 3;
+    grid-column: 1/2;
+    padding-top: 17px;
+}
+
+.destination3 {
+    font-size: 15px;
+    grid-row: 3;
+    grid-column: 2/4;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.price3 {
+    grid-row: 3;
+    grid-column: 4/7;
+    color: white;
+    font-weight: bold;
 }
