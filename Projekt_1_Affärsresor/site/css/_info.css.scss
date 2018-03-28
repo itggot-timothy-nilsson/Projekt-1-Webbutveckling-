@@ -1,4 +1,4 @@
-.container {
+.container_info {
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -15,7 +15,7 @@
     text-decoration: underline;
     font-size: 15px;
 }
-.content {
+.content_info {
     margin-left: 20px;
     grid-column: span 8;
     grid-row: 3/9;
@@ -78,7 +78,7 @@
     grid-template-columns: repeat(4, 1fr)
 }
 
-a {
+.container_info a {
     margin-top: 10px;
     margin-right: 40px;
     grid-row: span 1;
